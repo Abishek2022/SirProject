@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="roadmap.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+</head>
+<body>
+	
+	<script>
+window.onscroll = function() {myFunction()};
+
+var nevigation = document.getElementById("myHeader");
+var sticky = nevigation.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    nevigation.classList.add("sticky");
+  } else {
+    nevigation.classList.remove("sticky");
+  }
+}
+</script>
+<div class="topbtn">
+			<button class="button loginbutton">Log in</button>
+			<button class="button register">Creat Account</button>
+			
+</div>
+
+	<div class="nevigation" id="myHeader">
+	<div class="navbar">
+  <div class="subnav">
+    <button class="subnavbtn">WHAT TO EXPECT<i class="fa fa-caret-down"></i></button>
+   <!--  <div class="subnav-content1">
+    	 <button class="course-nev1">Course Details
+    		<div class="course-content">
+	    	<a href="#bring">Technology</a>
+	      <a href="#deliver">Management</a>
+	      <a href="#package">Science</a>
+	      <a href="#express">Education</a>
+	      <a href="#bring">Engineering</a>
+	      <a href="#deliver">Health</a>
+	      <a href="#package">Social Science</a>
+	      <a href="#express">Law</a>
+	     	<a href="#bring">Agriculture</a>
+	      <a href="#deliver">Forestry</a>
+	   	</div>
+	   	</button>
+    	 <button class="course-nev2">Course Road Map
+
+    	 	 		<div class="road-content">
+	    	<a href="#bring">Managemetn</a>
+	      <a href="#deliver">Science</a>
+	      <a href="#package">Education</a>
+	      <a href="#deliver">Health</a>
+	      <a href="#package">Social Science</a>
+	      <a href="#express">Law</a>
+	     	<a href="#bring">Agriculture</a>
+	      <a href="#deliver">Forestry</a>
+	   	</div>
+	   		
+    	 </button>
+    	
+    	
+    
+    </div>
+    -->
+  </div> 
+  <div class="subnav">
+    <button class="subnavbtn">LEADERS<i class="fa fa-caret-down"></i></button>
+   <!-- <div class="subnav-content2">
+    <button class="tu-nev1">TU
+    		<div class="tu-content">
+	    	<a href="#bring">Technology</a>
+	      <a href="#deliver">Management</a>
+	      <a href="#package">Science</a>
+	      <a href="#express">Education</a>
+	      <a href="#bring">Engineering</a>
+	      <a href="#deliver">Health</a>
+	      <a href="#package">Social Science</a>
+	      <a href="#express">Law</a>
+	     	<a href="#bring">Agriculture</a>
+	      <a href="#deliver">Forestry</a>
+	   	</div>
+	   	</button>
+    	 <button class="pu-nev2">PU
+
+    	 	 <div class="pu-content">
+	    	<a href="#bring">Managemetn</a>
+	      <a href="#deliver">Science</a>
+	      <a href="#package">Education</a>
+	      <a href="#deliver">Health</a>
+	      <a href="#package">Social Science</a>
+	      <a href="#express">Law</a>
+	     	<a href="#bring">Agriculture</a>
+	      <a href="#deliver">Forestry</a>
+	   	</div>
+    	 </button>
+    	 <button class="ku-nev3">KU
+
+    	 	 		<div class="ku-content">
+	    	<a href="#bring">Managemetn</a>
+	      <a href="#deliver">Science</a>
+	      <a href="#package">Education</a>
+	      <a href="#deliver">Health</a>
+	      <a href="#package">Social Science</a>
+	     
+	   	</div>
+	   
+    	 </button>
+    		
+    </div>
+    -->
+  </div> 
+  <div class="subnav">
+    <button class="subnavbtn">SERMONS<i class="fa fa-caret-down"></i></button>
+    <!--<div class="subnav-content3">
+       <button class="atu-nev1">Affiliated By TU
+    		<div class="atu-content">
+	    	<a href="#bring">Technology</a>
+	      <a href="#deliver">Management</a>
+	      <a href="#package">Science</a>
+	      <a href="#express">Education</a>
+	      <a href="#bring">Engineering</a>
+	      <a href="#deliver">Health</a>
+	      <a href="#package">Social Science</a>
+	      <a href="#express">Law</a>
+	     	<a href="#bring">Agriculture</a>
+	      <a href="#deliver">Forestry</a>
+	   	</div>
+	   	</button>
+    	 <button class="apu-nev2">Affiliated By PU
+
+    	 	 <div class="apu-content">
+	    	<a href="#bring">Managemetn</a>
+	      <a href="#deliver">Science</a>
+	      <a href="#package">Education</a>
+	      <a href="#deliver">Health</a>
+	      <a href="#package">Social Science</a>
+	      <a href="#express">Law</a>
+	     	<a href="#bring">Agriculture</a>
+	      <a href="#deliver">Forestry</a>
+	   	</div>
+    	 </button>
+    	 <button class="aku-nev3">Affiliated By KU
+
+    	 	 		<div class="aku-content">
+	    	<a href="#bring">Managemetn</a>
+	      <a href="#deliver">Science</a>
+	      <a href="#package">Education</a>
+	      <a href="#deliver">Health</a>
+	      <a href="#package">Social Science</a>
+	     
+	   	</div>
+	   
+    	 </button>
+    </div>
+    -->
+  </div>
+  <div class="subnav">
+    <button class="subnavbtn">MISSION<i class="fa fa-caret-down"></i></button>
+   <!-- <div class="subnav-content4">
+       <button class="atu-nev1">Affiliated By TU
+    		<div class="atu-content">
+	    	<a href="#bring">Technology</a>
+	      <a href="#deliver">Management</a>
+	      <a href="#package">Science</a>
+	      <a href="#express">Education</a>
+	      <a href="#bring">Engineering</a>
+	      <a href="#deliver">Health</a>
+	      <a href="#package">Social Science</a>
+	      <a href="#express">Law</a>
+	     	<a href="#bring">Agriculture</a>
+	      <a href="#deliver">Forestry</a>
+	   	</div>
+	   	</button>
+    	 <button class="apu-nev2">Affiliated By PU
+
+    	 	 <div class="apu-content">
+	    	<a href="#bring">Managemetn</a>
+	      <a href="#deliver">Science</a>
+	      <a href="#package">Education</a>
+	      <a href="#deliver">Health</a>
+	      <a href="#package">Social Science</a>
+	      <a href="#express">Law</a>
+	     	<a href="#bring">Agriculture</a>
+	      <a href="#deliver">Forestry</a>
+	   	</div>
+    	 </button>
+    	 <button class="aku-nev4">Affiliated By KU
+
+    	 	 		<div class="aku-content">
+	    	<a href="#bring">Managemetn</a>
+	      <a href="#deliver">Science</a>
+	      <a href="#package">Education</a>
+	      <a href="#deliver">Health</a>
+	      <a href="#package">Social Science</a>
+	     
+	   	</div>
+    	 </button>
+    </div>
+  </div>
+    <div class="subnav">
+    <button class="subnavbtn">MINISTRY PARTNERS<i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content5">
+       <button class="atu-nev1">Affiliated By TU
+    		<div class="atu-content">
+	    	<a href="#bring">Technology</a>
+	      <a href="#deliver">Management</a>
+	      <a href="#package">Science</a>
+	      <a href="#express">Education</a>
+	      <a href="#bring">Engineering</a>
+	      <a href="#deliver">Health</a>
+	      <a href="#package">Social Science</a>
+	      <a href="#express">Law</a>
+	     	<a href="#bring">Agriculture</a>
+	      <a href="#deliver">Forestry</a>
+	   	</div>
+	   	</button>
+    	 <button class="apu-nev2">Affiliated By PU
+
+    	 	 <div class="apu-content">
+	    	<a href="#bring">Managemetn</a>
+	      <a href="#deliver">Science</a>
+	      <a href="#package">Education</a>
+	      <a href="#deliver">Health</a>
+	      <a href="#package">Social Science</a>
+	      <a href="#express">Law</a>
+	     	<a href="#bring">Agriculture</a>
+	      <a href="#deliver">Forestry</a>
+	   	</div>
+    	 </button>
+    	 <button class="aku-nev5">Affiliated By KU
+
+    	 	 		<div class="aku-content">
+	    	<a href="#bring">Managemetn</a>
+	      <a href="#deliver">Science</a>
+	      <a href="#package">Education</a>
+	      <a href="#deliver">Health</a>
+	      <a href="#package">Social Science</a>
+	     
+	   	</div>
+	   
+    	 </button>
+    </div>
+    -->
+  </div>
+   <div class="subnav">
+    <button class="subnavbtn">OUR BELIEFS<i class="fa fa-caret-down"></i></button>
+    <!--<div class="subnav-content6">
+       <button class="atu-nev1">Affiliated By TU
+    		<div class="atu-content">
+	    	<a href="#bring">Technology</a>
+	      <a href="#deliver">Management</a>
+	      <a href="#package">Science</a>
+	      <a href="#express">Education</a>
+	      <a href="#bring">Engineering</a>
+	      <a href="#deliver">Health</a>
+	      <a href="#package">Social Science</a>
+	      <a href="#express">Law</a>
+	     	<a href="#bring">Agriculture</a>
+	      <a href="#deliver">Forestry</a>
+	   	</div>
+	   	</button>
+    	 <button class="apu-nev2">Affiliated By PU
+
+    	 	 <div class="apu-content">
+	    	<a href="#bring">Managemetn</a>
+	      <a href="#deliver">Science</a>
+	      <a href="#package">Education</a>
+	      <a href="#deliver">Health</a>
+	      <a href="#package">Social Science</a>
+	      <a href="#express">Law</a>
+	     	<a href="#bring">Agriculture</a>
+	      <a href="#deliver">Forestry</a>
+	   	</div>
+    	 </button>
+    	 <button class="aku-nev6">Affiliated By KU
+
+    	 	 		<div class="aku-content">
+	    	<a href="#bring">Managemetn</a>
+	      <a href="#deliver">Science</a>
+	      <a href="#package">Education</a>
+	      <a href="#deliver">Health</a>
+	      <a href="#package">Social Science</a>
+	     
+	   	</div>
+    	 </button>
+    </div>
+  -->
+  </div>
+   <div class="subnav">
+    <button class="subnavbtn">EVENTS<i class="fa fa-caret-down"></i></button>
+   <!-- <div class="subnav-content7">
+       <button class="atu-nev1">Affiliated By TU
+    		<div class="atu-content">
+	    	<a href="#bring">Technology</a>
+	      <a href="#deliver">Management</a>
+	      <a href="#package">Science</a>
+	      <a href="#express">Education</a>
+	      <a href="#bring">Engineering</a>
+	      <a href="#deliver">Health</a>
+	      <a href="#package">Social Science</a>
+	      <a href="#express">Law</a>
+	     	<a href="#bring">Agriculture</a>
+	      <a href="#deliver">Forestry</a>
+	   	</div>
+	   	</button>
+    	 <button class="apu-nev2">Affiliated By PU
+
+    	 	 <div class="apu-content">
+	    	<a href="#bring">Managemetn</a>
+	      <a href="#deliver">Science</a>
+	      <a href="#package">Education</a>
+	      <a href="#deliver">Health</a>
+	      <a href="#package">Social Science</a>
+	      <a href="#express">Law</a>
+	     	<a href="#bring">Agriculture</a>
+	      <a href="#deliver">Forestry</a>
+	   	</div>
+    	 </button>
+    	 <button class="aku-nev7">Affiliated By KU
+
+    	 	 		<div class="aku-content">
+	    	<a href="#bring">Managemetn</a>
+	      <a href="#deliver">Science</a>
+	      <a href="#package">Education</a>
+	      <a href="#deliver">Health</a>
+	      <a href="#package">Social Science</a>
+	     
+	   	</div>
+    	 </button>
+    </div>
+  -->
+  </div>
+   <div class="subnav">
+    <button class="subnavbtn">GIVE<i class="fa fa-caret-down"></i></button>
+    <!--<div class="subnav-content8">
+       <button class="atu-nev1">Affiliated By TU
+    		<div class="atu-content">
+	    	<a href="#bring">Technology</a>
+	      <a href="#deliver">Management</a>
+	      <a href="#package">Science</a>
+	      <a href="#express">Education</a>
+	      <a href="#bring">Engineering</a>
+	      <a href="#deliver">Health</a>
+	      <a href="#package">Social Science</a>
+	      <a href="#express">Law</a>
+	     	<a href="#bring">Agriculture</a>
+	      <a href="#deliver">Forestry</a>
+	   	</div>
+	   	</button>
+    	 <button class="apu-nev2">Affiliated By PU
+
+    	 	 <div class="apu-content">
+	    	<a href="#bring">Managemetn</a>
+	      <a href="#deliver">Science</a>
+	      <a href="#package">Education</a>
+	      <a href="#deliver">Health</a>
+	      <a href="#package">Social Science</a>
+	      <a href="#express">Law</a>
+	     	<a href="#bring">Agriculture</a>
+	      <a href="#deliver">Forestry</a>
+	   	</div>
+    	 </button>
+    	 <button class="aku-nev8">Affiliated By KU
+
+    	 	 		<div class="aku-content">
+	    	<a href="#bring">Managemetn</a>
+	      <a href="#deliver">Science</a>
+	      <a href="#package">Education</a>
+	      <a href="#deliver">Health</a>
+	      <a href="#package">Social Science</a>
+	     
+	   	</div>
+    	 </button>
+    </div>
+  -->
+  </div>
+  
+</div>
+ <a href=file:///C:/xampp/htdocs/AS/dublicatehomepage.php><img src="logo1.png" style="width: 101px; height: 87px; margin-top: -62px; margin-left:68px; position: absolute; " ></a>
+			 
+</div>
+	
+			
+
+		
+<div class="title"><h1>What To Expect</h1></div>
+<div  class="first">
+	<div class="first-content"></div>
+	<div class="mphoto fphoto1"></div>
+	<div class="mphoto fphoto2"></div>
+	<div class="mphoto fphoto3"></div>
+	<div class="mphoto  fphoto4"></div>
+	<div class="mtext  ftext1"></div>
+	<div class="mtext ftext2"></div>
+	<div class="mtext ftext3"></div>
+	<div class="mtext ftext4"></div>
+
+</div>
+	  
+
+
+	    <div class="footer">
+    	  <a href="#"><img src="logo01white.PNG" style="width: 137px; height: 125px; margin-top: 113px; margin-left:220px; position: relative; " ></a>
+    	  <div class="footer-content">
+    	<form  class="footer-nev0">
+	  	<input type="text" name="name" placeholder="Name">
+	  	<input type="text" name="email" placeholder="Email">
+	  	<input type="submit" name="submit" value="Subscribe">
+    	 
+    		</form> 
+    	<div class="footer-nev1">
+
+    		<h3>SITE MAP</h3>
+				<a href="#">About Us</a>
+				<a href="#">Sermons</a>
+				<a href="#">Events</a>
+				<a href="#">Give</a>
+    	</div>
+    	<div class="footer-nev2">
+    	  <h3>SUPPORT</h3>
+				<a href="#">Privacy Policy</a>
+				<a href="#">Terms and Condition</a>
+				
+    	</div>
+    	<div class="footer-nev3">
+    	  <h3>FOLLOW ON</h3>
+			<a class="active" href="#"><i class="fa fa-facebook"></i></a> 
+		  <a href="#"><i class="fa fa-instagram"></i></a> 
+		  <a href="#"><i class="fa fa-twitter"></i></a> 
+		  <a href="#"><i class="fa fa-telegram"></i></a>
+    	</div>
+    	<div class="footer-nev4">
+    	  <h3>CONTACT US</h3>
+				<a href="#"><i class="fa fa-envelope"></i> admin@gmail.com</a>
+    	</div>
+    	</div>
+    </div>
+
+</body>
+</html>
