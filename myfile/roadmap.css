@@ -1,0 +1,987 @@
+body{
+			padding: 0px;
+			margin:0px;
+			width: 100%;
+			height: 100%;
+			 background-image: url('lan5.JPG');
+  background-repeat: no-repeat;
+  background-size: cover;
+  		background-size: 100% 970px;
+  	background-attachment: fixed;
+  	position: center;
+  		
+		}
+		/* navigation */
+.nevigation{
+      overflow: hidden;
+      background-color: white;
+      top: 0px;
+      width: 100%;
+      height: 123px;
+      border: 0.5px solid #ebedeb;
+      transition: top 1s;
+      display: block;
+      padding: 10px 16px;
+		 	position: sticky;
+		 	margin-top:-323px;
+
+      
+	}
+	
+.navbar {
+  overflow: hidden;
+  background-color: transparent;
+  margin-left:301px;
+  margin-top: 47px;
+
+}
+
+
+
+.subnav {
+  float: left;
+  overflow: hidden;
+  padding-left: 40px;
+  margin: -10px;
+
+}
+.button{
+		/**/
+		border: none;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 19px;
+		cursor: pointer;
+		left: 1575px;
+		top: -334px;
+		margin-bottom: 10px;
+		
+		
+	}
+.loginbutton{
+	
+		text-align: center;
+		width: 120px;
+		height: 61px;
+		background-color: transparent;
+		color: #0d0303;
+		margin-right: -53px;
+
+	}
+	.register{
+		border-radius: 7px;
+		text-align: center;
+		width: 179px;
+		height: 45px;
+		background-color: transparent;
+		border: 1px solid white;
+		color: white;
+
+	}
+	.topbtn{
+	float: right;
+	margin-top: -339px;
+	margin-right: 14px;
+
+}
+
+	.title h1{
+		color: red;
+	}
+	
+	.sticky{
+		position: fixed;
+		top: 0;
+		width: 100%;
+	}
+	.sticky + .first{
+		padding-top: 0px;
+	}
+	.first{
+		width: 100%;
+		height: 2000px;
+		border: 1px solid black;
+		margin-top: 610px;
+		padding: 16px;
+		background-color:#d7d9d7;
+	}
+	.first-content{
+
+	}
+	.mphoto{
+		width: 500px;
+		height:380px;
+		border: 1px solid black;
+		background-color: white;
+		
+	}
+	.mtext{
+		
+	}
+.fphoto1{
+ margin-left: 250px;
+ margin-top: 120px;
+
+}
+.fphoto2{
+ margin-left: 971px;
+ margin-top: 124;
+}
+	
+	.fphoto3{
+	
+}
+	
+	.fphoto4{
+	
+}
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+/* navigation content like course, univirsity, college */
+.subnav .subnavbtn {
+  font-size: 12px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 18px 32px;
+  background-color: transparent;
+  font-family: Clarendon BT;
+  margin: 0px;
+  font-size: 15px;
+ cursor: pointer;
+
+}
+.course-nev1:hover, .subnav:hover .subnavbtn {
+  background-color: white; 
+}
+/* subnav-content1 start like course details and course road map */
+.subnav-content1 {
+  display: none;
+  position: absolute;
+  left: 597px;
+  background-color: white;
+  width: 232px;
+  height:118px;
+  z-index: 1;
+ border-radius: 5px;
+ margin-top: -9px;
+ box-shadow: -3px 6px 25px -15px dimgray;
+
+
+}
+/*course- nev1 start like course detals*/
+
+.course-nev1 {
+	  
+	display: block;
+    color: black;
+  text-decoration: none;
+  font-size: 19px;
+  padding: 16px;
+float: center;
+position: relative;
+
+}
+
+
+.subnav:hover .subnav-content1 {
+  display: block;
+}
+
+.course-nev1{
+	font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: transparent;
+  font-family: Clarendon BT;
+  margin: 0px;
+  font-size: 19px;
+  float: center;
+   cursor: pointer;
+
+}
+.course-content {
+  display: none;
+  position: absolute;
+  left: 230px;
+ top: -36px;
+  background-color: white;
+  width: 250px;
+  height:630px;
+  z-index: 1;
+ border-radius: 5px;
+ box-shadow: -3px 6px 25px -15px dimgray;
+ 
+}
+.course-content a {
+	display: block;
+    color: black;
+  text-decoration: none;
+  font-size: 19px;
+  padding: 16px;
+   cursor: pointer;
+
+position: relative; 
+}
+.course-nev1:hover{
+	  background-color: #4a0878;
+  color: white;
+  width: 100%;
+}
+.course-content a:hover{
+	  background-color: #4a0878;
+  	  color: white;
+}
+.subnav-content1:hover, .course-nev1:hover .course-content{
+	display: block;
+	color: black;
+	position: absolute;
+
+}
+/*course-nev 2 start like road map*/
+.course-nev2{
+	font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: transparent;
+  font-family:  Clarendon BT;
+  margin: 0px;
+  font-size: 19px;
+  float: center;
+  cursor: pointer;
+}
+
+.road-content{
+  display: none;
+  position: absolute;
+  left: 230px;
+ top: -36px;
+  background-color: white;
+  width: 250px;
+  height:504px;
+  z-index: 1;
+ border-radius: 5px;
+ box-shadow: -3px 6px 25px -15px dimgray;
+ cursor: pointer;
+}
+.road-content a {
+	display: block;
+    color: black;
+  text-decoration: none;
+  font-size: 19px;
+  padding: 16px;
+  font-family:  Yu Gothic Medium;
+
+position: relative; 
+}
+.course-nev2:hover{
+	  background-color: #4a0878;
+  color: white;
+  width: 100%;
+}
+.road-content a:hover{
+	  background-color: #4a0878;
+  	  color: white;
+}
+.subnav-content1:hover, .course-nev2:hover .road-content{
+	display: block;
+	color: black;
+	position: absolute;
+
+}
+/* start univar */
+/*tu- nev1 start like course detals*/
+
+.tu-nev1 {
+	  
+	display: block;
+    color: black;
+  text-decoration: none;
+  font-size: 19px;
+  padding: 16px;
+float: center;
+position: relative;
+
+}
+
+
+.subnav:hover .subnav-content1 {
+  display: block;
+}
+
+.tu-nev1{
+	font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: transparent;
+  font-family: Clarendon BT;
+  margin: 0px;
+  font-size: 19px;
+  float: center;
+   cursor: pointer;
+
+}
+.tu-content {
+  display: none;
+  position: absolute;
+  left: 119px;
+ top: -36px;
+  background-color: white;
+  width: 250px;
+  height:630px;
+  z-index: 1;
+ border-radius: 5px;
+ box-shadow: -3px 6px 25px -15px dimgray;
+ 
+}
+.tu-content a {
+	display: block;
+    color: black;
+  text-decoration: none;
+  font-size: 19px;
+  padding: 16px;
+   cursor: pointer;
+
+position: relative; 
+}
+.tu-nev1:hover{
+	  background-color: #4a0878;
+  color: white;
+  width: 100%;
+}
+.tu-content a:hover{
+	  background-color: #4a0878;
+  	  color: white;
+}
+.subnav-content1:hover, .tu-nev1:hover .tu-content{
+	display: block;
+	color: black;
+	position: absolute;
+
+}
+/*pu-nev 2 start like road map*/
+.pu-nev2{
+	font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: transparent;
+  font-family:  Yu Gothic Medium;
+  margin: 0px;
+  font-size: 19px;
+  float: center;
+  cursor: pointer;
+}
+
+.pu-content{
+  display: none;
+  position: absolute;
+  left: 119px;
+ top: -36px;
+  background-color: white;
+  width: 250px;
+  height:504px;
+  z-index: 1;
+ border-radius: 5px;
+ box-shadow: -3px 6px 25px -15px dimgray;
+ cursor: pointer;
+}
+.pu-content a {
+	display: block;
+    color: black;
+  text-decoration: none;
+  font-size: 19px;
+  padding: 16px;
+  font-family:  Yu Gothic Medium;
+
+position: relative; 
+}
+.pu-nev2:hover{
+	  background-color: #4a0878;
+  color: white;
+  width: 100%;
+}
+.pu-content a:hover{
+	  background-color: #4a0878;
+  	  color: white;
+}
+.subnav-content1:hover, .pu-nev2:hover .pu-content{
+	display: block;
+	color: black;
+	position: absolute;
+
+}
+/*ku-nev 2 start like road map*/
+.ku-nev3{
+	font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: transparent;
+  font-family:  Clarendon BT;
+  margin: 0px;
+  font-size: 19px;
+  float: center;
+  cursor: pointer;
+}
+
+.ku-content{
+  display: none;
+  position: absolute;
+  left: 119px;
+ top: -36px;
+  background-color: white;
+  width: 250px;
+  height:504px;
+  z-index: 1;
+ border-radius: 5px;
+ box-shadow: -3px 6px 25px -15px dimgray;
+ cursor: pointer;
+}
+.ku-content a {
+	display: block;
+    color: black;
+  text-decoration: none;
+  font-size: 19px;
+  padding: 16px;
+  font-family:  Yu Gothic Medium;
+
+position: relative; 
+}
+.ku-nev3:hover{
+	  background-color: #4a0878;
+  color: white;
+  width: 100%;
+}
+.ku-content a:hover{
+	  background-color: #4a0878;
+  	  color: white;
+}
+.subnav-content1:hover, .tu-nev2:hover, .ku-nev3:hover .ku-content {
+	display: block;
+	color: black;
+	position: absolute;
+
+}
+/*ku end */
+/* subnav-content1 start */
+.subnav-content2 {
+  display: none;
+  position: absolute;
+  left: 868px;
+  margin-top: -9px;
+  background-color: white;
+  width: 121px;
+  height:177px;
+  z-index: 1;
+ border-radius: 5px;
+ box-shadow: -3px 6px 25px -15px dimgray;
+
+
+}
+.subnav:hover .subnav-content2 {
+  display: block;
+}
+/*end of subcontent like tu pu ku*/
+
+/* end of 2 content */
+
+/* start affiliated */
+/*tu- nev1 start like course detals*/
+
+.atu-nev1 {
+	  
+	display: block;
+    color: black;
+  text-decoration: none;
+  font-size: 19px;
+  padding: 16px;
+float: center;
+position: relative;
+
+}
+
+
+.subnav:hover .subnav-content1 {
+  display: block;
+}
+
+.atu-nev1{
+	font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: transparent;
+  font-family: Clarendon BT;
+  margin: 0px;
+  font-size: 19px;
+  float: center;
+   cursor: pointer;
+
+}
+.atu-content {
+  display: none;
+  position: absolute;
+  left: 204px;
+ top: -36px;
+  background-color: white;
+  width: 250px;
+  height:630px;
+  z-index: 1;
+ border-radius: 5px;
+ box-shadow: -3px 6px 25px -15px dimgray;
+ 
+}
+.atu-content a {
+	display: block;
+    color: black;
+  text-decoration: none;
+  font-size: 19px;
+  padding: 16px;
+   cursor: pointer;
+
+position: relative; 
+}
+.atu-nev1:hover{
+	  background-color: #4a0878;
+  color: white;
+  width: 100%;
+}
+.atu-content a:hover{
+	  background-color: #4a0878;
+  	  color: white;
+}
+.subnav-content1:hover, .atu-nev1:hover .atu-content{
+	display: block;
+	color: black;
+	position: absolute;
+
+}
+/*pu-nev 2 start like road map*/
+.apu-nev2{
+	font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: transparent;
+  font-family:  Clarendon BT;
+  margin: 0px;
+  font-size: 19px;
+  float: center;
+  cursor: pointer;
+}
+
+.apu-content{
+  display: none;
+  position: absolute;
+  left: 204px;;
+ top: -36px;
+  background-color: white;
+  width: 250px;
+  height:504px;
+  z-index: 1;
+ border-radius: 5px;
+ box-shadow: -3px 6px 25px -15px dimgray;
+ cursor: pointer;
+}
+.apu-content a {
+	display: block;
+    color: black;
+  text-decoration: none;
+  font-size: 19px;
+  padding: 16px;
+  font-family:  Yu Gothic Medium;
+
+position: relative; 
+}
+.apu-nev2:hover{
+	  background-color: #4a0878;
+  color: white;
+  width: 100%;
+}
+.apu-content a:hover{
+	  background-color: #4a0878;
+  	  color: white;
+}
+.subnav-content1:hover, .apu-nev2:hover .apu-content{
+	display: block;
+	color: black;
+	position: absolute;
+
+}
+/*aku-nev 2 start like road map*/
+.aku-nev3{
+	font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: transparent;
+  font-family: Clarendon BT;
+  margin: 0px;
+  font-size: 19px;
+  float: center;
+  cursor: pointer;
+}
+
+.aku-content{
+  display: none;
+  position: absolute;
+  left: 204px;
+ top: -36px;
+  background-color: white;
+  width: 250px;
+  height:504px;
+  z-index: 1;
+ border-radius: 5px;
+ box-shadow: -3px 6px 25px -15px dimgray;
+ cursor: pointer;
+}
+.aku-content a {
+	display: block;
+    color: black;
+  text-decoration: none;
+  font-size: 19px;
+  padding: 16px;
+  font-family:  Yu Gothic Medium;
+
+position: relative; 
+}
+.aku-nev3:hover{
+	  background-color: #4a0878;
+  color: white;
+  width: 100%;
+}
+.aku-content a:hover{
+	  background-color: #4a0878;
+  	  color: white;
+}
+.subnav-content1:hover, .atu-nev2:hover, .aku-nev3:hover .aku-content {
+	display: block;
+	color: black;
+	position: absolute;
+
+}
+/*ku end */
+/* subnav-content1 start */
+.subnav-content3 {
+  display: none;
+  position: absolute;
+  left: 1106px;
+  margin-top: -9px;
+  background-color: white;
+  width: 227px;
+  height:177px;
+  z-index: 1;
+ border-radius: 5px;
+ box-shadow: -3px 6px 25px -15px dimgray;
+
+
+}
+.subnav:hover .subnav-content3 {
+  display: block;
+}
+/*end of subcontent like atu apu aku*/
+
+/* end of 3 content */
+
+
+
+	.tittlephoto{
+	
+		width: 100%;
+		height: 141px;
+		position: relative;
+		margin-top: -297px;
+		
+
+	}
+	.tittle-management{
+		margin-top: -12px;
+		margin-left: 0px;
+		position: relative;
+		text-align: center;
+		font-size: 118px;
+
+	}
+
+
+
+
+		.road{
+			position: absolute;
+			margin-top: -366px;
+		}
+		.content{
+			margin-top:120px;
+			position: absolute;
+			margin-left: -61px;
+
+		}
+		.nav{
+			padding: 0px;
+			margin-top: 100px;
+			margin-left: 416px;
+			position: relative;
+			display: inline;
+			width: 10px;
+			outline: none;
+			border: none;
+
+
+		}
+		.manage{
+			position: relative;
+			display: block;
+			margin-top: 257px;
+			margin-left: 107px;
+			border: 1px solid black;
+			background-color: #e6f2ff;
+			color: black;
+			width: 219px;
+			font-size: 30px;
+			padding:14px ;
+			text-transform: bold;
+		}
+		button{
+			outline: none;
+			border: none;
+			margin-left:47px;
+			margin-top: 357px;
+			font-size: 18px;
+			padding: 10px;
+			background-color: white;
+		}
+		.topofmap{
+			margin-top: 522px;
+			position: absolute;
+			display: inline-flex;
+			padding-left: 440px;
+			font-size: 27px;
+		}
+	
+
+.footer{
+		border: 1px solid black;
+		width: 100%;
+		height:337px;
+		position: relative;
+		background-color: #252525;
+	}
+
+	.footer{
+      overflow: hidden;
+      background-color:#040404;
+      top: 1000px;
+      width: 100%;
+      height: 340px;
+      border: 1px solid black;
+
+	}
+	.footer-nev1 h3{
+		color: white;
+		left: 700px;
+		top: -146px;
+		position: relative;
+		font-family: Malgun Gothic;
+		}
+		
+	.footer-nev1{
+		left: 10;
+		top: 130;
+		color: black;
+		position: relative;
+		 width: 150px;
+      height: 300px;
+
+	}
+	.footer-nev1 a{
+	
+		display: block;
+		color:white;
+		position: relative;
+		top: -159px;
+		left: 702px;
+		padding: 7px ;
+		text-decoration: none;
+		font-size: 16px;
+		font-family: Malgun Gothic;
+		-webkit-transition:  colot 0.5s;
+		transition: color 0.5s;
+		}
+
+	.footer-nev2 h3{
+		color: white;
+		left: 950px;
+		top: -464px;
+		position: relative;
+		font-family: Malgun Gothic;
+		}
+		
+	.footer-nev2{
+		left: 10;
+		top: 130;
+		color: black;
+		position: relative;
+		 width: 150px;
+      height: 300px;
+
+	}
+	.footer-nev2 a{
+	
+		display: block;
+		color:white;
+		position: relative;
+		top: -478px;
+		left: 941px;
+		padding: 7px ;
+		text-decoration: none;
+		font-size: 16px;
+		font-family: Malgun Gothic;
+		width: 165px;
+		-webkit-transition:  colot 0.5s;
+		transition: color 0.5s;
+		}
+	
+
+	.footer-nev3 h3{
+		color: white;
+		left: 1200px;
+		top: -783px;
+		position: relative;
+		font-family: Malgun Gothic;
+		}
+		
+	.footer-nev3{
+		left: 10;
+		top: 130;
+		color: black;
+		position: relative;
+		 width: 150px;
+      height: 300px;
+
+	}
+	.footer-nev3 a{
+	
+		display: inline-block;
+		color:white;
+		position: relative;
+		top: -795px;
+		left: 1199px;
+		padding: 7px ;
+		text-decoration: none;
+		font-size: 22px;
+		font-family: Malgun Gothic;
+		-webkit-transition:  colot 0.5s;
+		transition: color 0.5s;
+		}
+
+	.footer-nev4 h3{
+		color: white;
+		left: 1450px;
+		top: -1102px;
+		position: relative;
+		font-family: Malgun Gothic;
+		}
+		
+	.footer-nev4{
+		left: 10;
+		top: 130;
+		color: black;
+		position: relative;
+		 width: 150px;
+      height: 300px;
+
+	}
+	.footer-nev4 a{
+	
+		display: block;
+		color:white;
+		position: relative;
+		top: -1114px;
+		left: 1441px;
+		padding: 7px ;
+		text-decoration: none;
+		font-size: 16px;
+		font-family: Malgun Gothic;
+		width: 165px;
+		height: 25px;
+		-webkit-transition:  colot 0.5s;
+		transition: color 0.5s;
+		}
+
+		.footer-nev1 a:hover{
+		color: green;
+	}
+	.footer-nev2 a:hover{
+		color: green;
+	}
+	.footer-nev3 a:hover{
+		color: green;
+	}
+	.footer-nev4 a:hover{
+		color: green;
+	}
+.foorter a:hover{
+	color: red;
+}
+.footer-nev0{
+	width: 300px;
+		height: 280px;
+		
+		margin-top: -178px;
+		padding: 16px;
+		background-color:#c2c0c0 ;
+		margin-left: 1703PX;
+		position: absolute;
+		background-color: transparent;
+}
+input[type=text] {
+  
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit] {
+    width: 100%;
+  background-color: #144a12;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.footer-content{
+	margin-left: -268px;
+}
+input[type=submit]:hover{
+	background-color: #074205;
+	color: white;
+}
