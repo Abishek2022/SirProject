@@ -91,6 +91,47 @@ body{
 	margin-right: 14px;
 
 }
+/*donation */
+
+      .donation-btn {
+        	border-radius: 25px;
+					width: 84px;
+					height: 46px;
+					background-color: transparent;
+					color: white;
+        	animation: glowing 1300ms infinite;
+        	margin-right: -55px;
+
+      }
+      @-webkit-keyframes glowing {
+        0% {
+          background-color: #06b200;;
+          -webkit-box-shadow: 0 0 3px #0eb200;
+        }
+        50% {
+          background-color: #27ed21;
+          -webkit-box-shadow: 0 0 15px #21ed37;
+        }
+        100% {
+          background-color: #00b213;
+          -webkit-box-shadow: 0 0 3px #16b200;
+        }
+      }
+      @keyframes glowing {
+        0% {
+          background-color: #00b20b;
+          box-shadow: 0 0 3px #06b200;
+        }
+        50% {
+          background-color: #21ed4a;
+          box-shadow: 0 0 15px #44ed21;
+        }
+        100% {
+          background-color: #00b21c;
+          box-shadow: 0 0 3px #16b200;
+        }
+      }
+
 .title{
 	margin-left:1000px ;
 	margin-top: 200px;
@@ -217,19 +258,6 @@ body{
 
 
 	
-	
-	
-
-
-
-
-
-
-
-
-
-
-
 /* navigation content like course, univirsity, college */
 .subnav .subnavbtn {
   font-size: 12px;  
@@ -433,6 +461,14 @@ position: relative;
 			font-size: 27px;
 		}
 	
+
+      
+
+
+
+/*footer */
+
+
 
 .footer{
 		border: 1px solid black;
