@@ -131,6 +131,33 @@ body{
           box-shadow: 0 0 3px #16b200;
         }
       }
+   #overlay {
+  position: fixed;
+  display: none;
+  width: 423px;
+  height: 104px;
+  top: 100px;
+  left: 1335px;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+#overlay a{
+	
+		display: inline-block;
+		color:white;
+		position: relative;
+		top: 0px;
+		left: 0px;
+		padding: 7px ;
+		text-decoration: none;
+		font-size: 22px;
+		font-family: Malgun Gothic;
+		-webkit-transition:  colot 0.5s;
+		transition: color 0.5s;
+		}
 
 .title{
 	margin-left:1000px ;

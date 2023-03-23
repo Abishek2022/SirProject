@@ -23,17 +23,26 @@ function myFunction() {
     nevigation.classList.remove("sticky");
   }
 }
+function on(){
+	document.getElementById("overlay").style.display="block";
+}
+function off(){
+	document.getElementById("overlay").style.display="none";
+}
 </script>
 
 <div class="topbtn">
-	 <button class="button donation-btn" >Donate</button>
+	 <button class="button donation-btn" onclick="on()">Donate</button>
 			<button class="button loginbutton"  onClick="location.href='loginpage.html'"> Log in</button>
 			<button class="button register">Creat Account</button>
 
-     
-
     </div>
 			
+<div id="overlay" onclick="off()">
+	<a class="active" href="#"><img src="esewa.PNG" style="width: 110px; height: 63px; margin-top: 14px; margin-left:2px; position: absolute; " ></i></a> 
+		  <a href="#"><img src="khalti.JPG" style="width: 110px; height: 63px; margin-top: 14px; margin-left:126px; position: absolute; " ></i></a> 
+		  <a href="#"><img src="sine.PNG" style="width: 110px; height: 63px; margin-top: 14px; margin-left:250px; position: absolute; " ></i></a> 
+		  
 </div>
 
 	<div class="nevigation" id="myHeader">
