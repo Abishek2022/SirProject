@@ -17,7 +17,7 @@ var nevigation = document.getElementById("myHeader");
 var sticky = nevigation.offsetTop;
 
 function myFunction() {
-  if (window.pageYOffset > sticky) {
+  if (window.pageYOffset>sticky) {
     nevigation.classList.add("sticky");
   } else {
     nevigation.classList.remove("sticky");
@@ -39,11 +39,47 @@ function off(){
     </div>
 			
 <div id="overlay" onclick="off()">
-	<a class="active" href="#"><img src="donation/esewa.PNG" style="width: 110px; height: 63px; margin-top: 14px; margin-left:2px; position: absolute; " ></i></a> 
-		  <a href="#"><img src="donation/khalti.JPG" style="width: 110px; height: 63px; margin-top: 14px; margin-left:126px; position: absolute; " ></i></a> 
-		  <a href="#"><img src="donation/sine.PNG" style="width: 110px; height: 63px; margin-top: 14px; margin-left:250px; position: absolute; " ></i></a> 
-		  
+	<div class="firstdonation">
+		<a class="active" href="#"><img src="donation/esewa.PNG" style="width: 110px; height: 63px; margin-top: 14px; margin-left:2px; position: absolute; " ></i></a> 
+		<div class="donationbox">
+		<div class="qrbox">
+		<img src="donation/qr.png" style="width: 160px; height: 170px; position: relative; " >
+		</div>
+		<div class="leftdiv">
+		<h2 style="color: white;">E-Sewa</h2>
+		<h3 style="color: white;">Abishek Thapa</h3>
+		<h3 style="color: white;">9847451959</h3>
+		</div>
+	</div>
+	</div>
+	<div class="seconddonation">
+		  <a href="#"><img src="donation/khalti.JPG" style="width: 110px; height: 63px; margin-top: -4px; margin-left:126px; position: absolute; " ></i></a> 
+			<div class="donationbox">
+		<div class="qrbox">
+		<img src="donation/qr.png" style="width: 160px; height: 170px; position: relative; " >
+		</div>
+		<div class="leftdiv">
+		<h2 style="color: white;">Khalti</h2>
+		<h3 style="color: white;">Abishek Thapa</h3>
+		<h3 style="color: white;">9847451959</h3>
+		</div>
+		  	</div>
 </div>
+<div class="thirddonation">
+		  <a href="#"><img src="donation/sine.PNG" style="width: 110px; height: 63px; margin-top: -22px; margin-left:250px; position: absolute; " ></i></a> 
+		  	<div class="donationbox">
+		<div class="qrbox">
+		<img src="donation/qr.png" style="width: 160px; height: 170px; position: relative; " >
+		</div>
+		<div class="leftdiv">
+		<h2 style="color: white;">Sine Resunga</h2>
+		<h3 style="color: white;">Abishek Thapa</h3>
+		<h3 style="color: white;">9847451959</h3>
+		</div>
+		  	</div>
+</div>
+</div>
+
 
 	<div class="nevigation" id="myHeader">
 	<div class="navbar">
@@ -81,7 +117,7 @@ function off(){
   </div>
   
 </div>
- <a href="#"><img src="logo4.JPG" style="width: 110px; height: 95px; margin-top: -62px; margin-left:68px; position: absolute; " ></a>
+ <a href="#"><img src="logo4.png" style="width: 110px; height: 95px; margin-top: -62px; margin-left:68px; position: absolute; " ></a>
 			 
 </div>
 
@@ -106,7 +142,7 @@ function off(){
 
 
 	    <div class="footer">
-    	  <a href="#"><img src="logo4.JPG" style="width: 137px; height: 125px; margin-top: 113px; margin-left:220px; position: relative; " ></a>
+    	  <a href="#"><img src="logo4.png" style="width: 137px; height: 125px; margin-top: 113px; margin-left:220px; position: relative; " ></a>
     	  <div class="footer-content">
     	<form  class="footer-nev0">
 	  	<input type="text" name="name" placeholder="Name">
