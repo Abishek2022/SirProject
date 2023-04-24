@@ -11,16 +11,17 @@
   width: 564px;
   height: 511px;
 
-  border: 1px solid black;
+  border: 2px solid black;
   margin-left: 678px;
   margin-top: 275px;
+  box-shadow: -1px -1px 8px -1px;
 }
 .titlelogin{
 	 
 	font-size: 40px;
-	left: 241px;
-	top: 31px;
-
+	left: 219px;
+	top: 64px;
+	position: relative;
 }
 	.usernamelabel{
 	 
@@ -48,7 +49,7 @@
 }
 
 	input[type=password]{
-		  width: 80%;
+  width: 80%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
@@ -56,17 +57,56 @@
   border-radius: 4px;
   box-sizing: border-box;
   margin-left: 55px;
-;
+
 	}
 	.labellfo{
 		font-size: 20px;
 		color: blue;
 		font-family: cursive;
 	}
+
+input[type=submit] {
+    width: 130px;
+  background-color: #144a12;
+  color: white;
+  padding: 14px 20px;
+  margin: 34px 211px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+.footer-content{
+	margin-left: -268px;
+}
+input[type=submit]:hover{
+	background-color: #074205;
+	color: white;
+}
 .creat{
 	margin-left: 10px;
 	margin-top: 50px;
-	position: absolute;
+	position: relative;
+	font-size: 18px;
+	color: blue;
+}
+.forgate{
+	margin-left: 167px;
+	margin-top: 50px;
+	position: relative;
+	font-size: 18px;
+	color: blue;
+
+}
+
+.inputdiv{
+	margin-top: 100px;
+}
+.footerdiv{
+	position: relative;
+	top: 18px;
+	left: 45px;
 }
 
 		
@@ -76,13 +116,19 @@
 
 	<form class="login">
 		<label class="labell titlelogin">Log In</label><br>
+		<div class="inputdiv">
 		<label class="labell usernamelabel">Username</label><br>
 	<input type="text" name="username" id="username" ><br>
 	<label class="labell passwordlabel">Password</label><br>
 	<input type="password" name="password" id="password"><br>
-	<button type="submit" value="Submit"></button><br>
-	<label class="labellfo creat">Create Account</label><br>
-	<label class="labellfo forgate">Forgate your password</label>
+	</div>
+	
+	<input type="submit" name="submit" value="Log In">
+	
+	<div class="footerdiv">
+	<label class="creat">Create Account</label>
+	<label class="forgate">Forgate your password</label>
+	</div>
 	</form>
 	</div>
 
