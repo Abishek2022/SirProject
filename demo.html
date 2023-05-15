@@ -6,43 +6,63 @@
 	<title></title>
 
 	<style type="text/css">
-	body{
-  display: grid; 
-  margin: auto; 
-  margin-top: calc(50vh - 170px); 
-  width: 700px; height: 600px; 
+.box{
+    
+    width: 350px;
+    padding: 10px;
 }
-fieldset{
-  border: 10px solid transparent; 
-  border-top-color: black; 
-  box-sizing: border-box; 
-  grid-area: 1 / 1; 
-  padding: 20px; 
-  width: inherit; 
-}
-fieldset:nth-of-type(1){ 
-  background: content-box center/contain no-repeat url("photo-1588852065463-5de1411ea697?w=400"); 
-}
-fieldset:nth-of-type(2){ transform: rotate(90deg); }
-fieldset:nth-of-type(3){ transform: rotate(180deg); }
-fieldset:nth-of-type(4){ transform: rotate(-90deg); }
-legend{
-  font: 15pt/0 'Averia Serif Libre'; 
-  margin: auto; 
-  padding: 0 4px; 
-} 
-fieldset:nth-of-type(3)>legend{ transform: rotate(180deg); } 
 
-body {
-  user-select: none;
-  -webkit-user-select: none;
+/*begin first box*/
+.f1{
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    border-width: 0 2px 0 2px;
+    border-color: #333;
+    border-style: solid;
+    position: relative;
 }
+
+.f1 span {
+    position: absolute;
+    display: flex;
+    right: 0;
+    left: 0;
+    align-items: center;
+}
+.f1 .foo{
+    top: -8px;
+}
+.f1 .bar{
+    bottom: -8.5px;
+}
+.f1 span:before{
+    margin-right: 15px;
+}
+.f1 span:after {
+    margin-left: 15px;
+}
+.f1 span:before , .f1 span:after {
+    content: ' ';
+    height: 2px;
+    background: #333;
+    display: block;
+    width: 50%;
+}
+
+
 	</style>
 </head>
 <body>
-<fieldset><legend>Mission</legend></fieldset>
-<fieldset><legend>Mission</legend></fieldset>
-<fieldset><legend>Mission</legend></fieldset>
-<fieldset><legend>Mission</legend></fieldset>
+<div class="box">
+    <div class="f1">
+        <span class="foo">FOO</span>
+        <span class="bar">BAR</span>
+    </div>
+
+   <br>
+
+   
+</div>
 </body>
 </html>
