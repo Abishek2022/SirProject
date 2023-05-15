@@ -4,41 +4,45 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
-	<style type="text/css">
-		.donationbox{
-			width: 370px;
-			height: 230px;
-			border: 1px solid black;
-			margin-top: 40px;
-			margin-left: 50px;
-			background: #161617;
-		}
-		.leftdiv{
-			margin-left: 227px;
-			margin-top: -162px;
-			position: relative;
-		}
-		.qrbox{
-			width: 160px;
-			height: 171px;
-			border: 1px solid black;
-			margin-top: 30px;
-			margin-left: 22px;
 
-		}
+	<style type="text/css">
+	body{
+  display: grid; 
+  margin: auto; 
+  margin-top: calc(50vh - 170px); 
+  width: 400px; height: 300px; 
+}
+fieldset{
+  border: 10px solid transparent; 
+  border-top-color: black; 
+  box-sizing: border-box; 
+  grid-area: 1 / 1; 
+  padding: 20px; 
+  width: inherit; 
+}
+fieldset:nth-of-type(1){ 
+  background: content-box center/contain no-repeat url("photo-1588852065463-5de1411ea697?w=400"); 
+}
+fieldset:nth-of-type(2){ transform: rotate(90deg); }
+fieldset:nth-of-type(3){ transform: rotate(180deg); }
+fieldset:nth-of-type(4){ transform: rotate(-90deg); }
+legend{
+  font: 15pt/0 'Averia Serif Libre'; 
+  margin: auto; 
+  padding: 0 4px; 
+} 
+fieldset:nth-of-type(3)>legend{ transform: rotate(180deg); } 
+
+body {
+  user-select: none;
+  -webkit-user-select: none;
+}
 	</style>
 </head>
 <body>
-	<div class="donationbox">
-		<div class="qrbox">
-		<img src="donation/qr.png" style="width: 160px; height: 170px; position: relative; " >
-		</div>
-		<div class="leftdiv">
-		<h2 style="color: green;">E-Sewa</h2>
-		<h3 style="color: white;">Abishek Thapa</h3>
-		<h3 style="color: white;">9847451959</h3>
-		</div>
-	</div>
-
+<fieldset><legend>Mission</legend></fieldset>
+<fieldset><legend>Mission</legend></fieldset>
+<fieldset><legend>Mission</legend></fieldset>
+<fieldset><legend>Mission</legend></fieldset>
 </body>
 </html>
