@@ -244,7 +244,8 @@ body{
     border-color: #333;
     border-style: solid;
     position: relative;
- 
+    color: #512287;
+
 
 }
 
@@ -284,6 +285,7 @@ body{
 	left: 323px;
 	top: 403px;
 	font-family: VAGRounded BT;
+
 }
 
 
